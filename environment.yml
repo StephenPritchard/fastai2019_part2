@@ -1,0 +1,13 @@
+name: fastai2019_part2
+channels:
+    - conda-forge
+    - fastai
+    - pytorch
+dependencies:
+    - python=3.7.4
+    - anaconda
+    - nbconvert
+    - pytorch
+    - fire
+    - matplotlib
+    - fastai
