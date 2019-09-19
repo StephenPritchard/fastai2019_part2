@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="326433c5-fbb0-49c8-a997-1ca9daaadfef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fwd_and_bkw_passes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_testing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -113,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568781200276</updated>
       <workItem from="1568781201373" duration="635000" />
-      <workItem from="1568857227104" duration="7145000" />
+      <workItem from="1568857227104" duration="7381000" />
     </task>
     <servers />
   </component>

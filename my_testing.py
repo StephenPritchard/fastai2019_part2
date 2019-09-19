@@ -19,6 +19,9 @@ def near(a, b): return torch.allclose(a, b, rtol=1e-3, atol=1e-5)
 def test_near(a, b): test(a, b, near)
 
 
+def test_near_zero(a, tol=1e-3): assert a.abs() < tol, f"Near zero: {a}"
+
+
 def times_100(func, m1, m2):
     start = timer()
     for i in range(100):
