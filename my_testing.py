@@ -19,24 +19,24 @@ def near(a, b): return torch.allclose(a, b, rtol=1e-3, atol=1e-5)
 def test_near(a, b): test(a, b, near)
 
 
-def times_100(func, *args):
+def times_100(func, m1, m2):
     start = timer()
     for i in range(100):
-        func(args[0], args[1])
+        func(m1, m2)
     end = timer()
     return (end - start) / 100.
 
 
-def times_1(func, *args):
+def times_1(func, m1, m2):
     start = timer()
-    func(args[0], args[1])
+    func(m1, m2)
     end = timer()
     return end - start
 
 
-def times_10(func, *args):
+def times_10(func, m1, m2):
     start = timer()
     for i in range(10):
-        func(args[0], args[1])
+        func(m1, m2)
     end = timer()
     return (end - start) / 10.
